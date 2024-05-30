@@ -7,8 +7,97 @@
 </head>
 <body>
     <h1>cool project</h1>
-    <p> this is guided project</p>
-    <div>this is another division</div>
-    <a href="https://www.google.com/">go to google</a>
-</body>
-</html>
+    <h2> Links and images</h2>
+<br>
+    <a href="https://www.google.com/"target="blank">go to google</a><br>
+    <a href="https://www.facebook.com/"target="blank">go to facebook</a><br>
+    <a href="https://www.amazon.com/"target="blank">go to amazon</a><br>
+
+    <img src="https://images.unsplash.com/photo-1541569863345-f97c6484a917?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"width=500 height="500" alt="Error loading">
+<br>
+<h2>list ordered and unordered</h2>
+<ul type="disk">
+    <!-- disk can be change into square or circle -->
+    <li>1st item of unordered list</li>
+    <li>2nd item of unordered list</li>
+    <li>3rd item of unordered list</li>
+        <ol type="i">
+            <li>1st item of ordered list in unordered list</li>
+            <li>2nd item of ordered list in unordered list</li>
+            <li>3rd item of ordered list in unordered list</li>
+        </ol>
+</ul>
+<!-- order list can be numbered alphabets roman number  -->
+<ol type="I">
+    <li>1st item of ordered list</li>
+    <li>2nd item of ordered list</li>
+    <li>3rd item of ordered list</li>
+    <ul type="square">
+        <li>1st item of unordered list</li>
+        <li>2nd item of unordered list</li>
+        <li>3rd item of unordered list</li>
+    </ul>
+</ol>
+<h2>tables and data insertion</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+            <th>section</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Ali</td>
+                <td>333</td>
+                <td>AI and Machine learning</td>
+            </tr>
+            <tr>   
+                <td>Alia</td>
+                <td>4783</td>
+                <td>cloud security</td>
+            </tr>
+            <tr>   
+                <td>Asif</td>
+                <td>4755</td>
+                <td>programmer</td>
+            </tr>
+            
+            </tbody>
+            </thead>
+            </table>
+            <h2>Forms and Input Tag</h2>
+            <form action="backend-data.php">
+                <div>
+                    <label for="name"> Name</label>
+                <input type="text" name="myname" id ="name"> </div><br>
+                <div> StudentID:<input type="number" name="myId"></div><br>
+                <div>Section:<input type="text" name="mymajor"></div><br>
+                <div>Email:<input type="email" name="myemail"></div><br>
+                <div>Date of Birth:<input type="date" value="Date of Birth"></div><br>
+                <div>Are you Eligible:<input type="checkbox" value="Eligibilty"></div><br>
+                <div>Gender:&nbsp Male<input type="radio" value="gender"> Female<input type="radio" value="gender">Other<input
+                        type="radio" value="gender"></div><br>
+                <div>
+                    Write about you: <br><textarea name="Mytext" cols="30" rows="10"></textarea>
+                </div><br>
+            <div> <label for="Ethinicity"> Ethinicity</label>
+                <select name="MyEthinicity" id ="Ethinicity">
+                    
+                    <option value ="asian">Asian</option>
+                    <option value ="african">African American</option>
+                    <option value ="American">native American</option>
+                    <option value ="hispanic">Hispanic</option>
+                    <option value ="other" selected> Other</option>
+                    
+                </select>
+            </div><br>
+                <div>
+                    <input type="submit" value="Submit Now">
+                    <input type="submit" value="Reset ">
+                </div><br>
+            
+            </form>
+            </body>
+            
+            </html>
